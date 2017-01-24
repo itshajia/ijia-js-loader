@@ -1,6 +1,6 @@
 {
   "name": "ijia-js-loader",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Javascript Raw loader module for Webpack",
   "homepage": "https://github.com/itshajia/ijia-js-loader",
   "repository": "git://github.com/itshajia/ijia-js-loader.git",
@@ -9,5 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "itshajia",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^2.7.5"
+  }
 }
