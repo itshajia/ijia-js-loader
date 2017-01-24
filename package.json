@@ -1,0 +1,13 @@
+{
+  "name": "ijia-js-loader",
+  "version": "1.0.0",
+  "description": "Javascript Raw loader module for Webpack",
+  "homepage": "https://github.com/itshajia/ijia-js-loader",
+  "repository": "git://github.com/itshajia/ijia-js-loader.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "itshajia",
+  "license": "MIT"
+}
