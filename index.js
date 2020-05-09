@@ -3,8 +3,8 @@ var reSourceMapComment = /\n\/\/# sourceMappingURL=.+?$/;
 
 module.exports = function (content) {
 
-    var m = uglify.minify(String(content), {fromString: true});
-    var result = JSON.stringify(m.code);
+    var result = uglify.minify(String(content));
+    result = JSON.stringify(result.code);
     result = result.replace(reSourceMapComment, "");
     return "module.exports = " + result;
 };

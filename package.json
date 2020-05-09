@@ -1,6 +1,6 @@
 {
   "name": "ijia-js-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Javascript Raw loader module for Webpack",
   "homepage": "https://github.com/itshajia/ijia-js-loader",
   "repository": "git://github.com/itshajia/ijia-js-loader.git",
